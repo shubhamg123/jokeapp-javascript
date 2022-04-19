@@ -41,13 +41,24 @@ body{
  height: 100%;
  width: 100%;
  overflow: hidden;
+ background-color: aliceblue;
 
 }
 #container{
  
     overflow: hidden;
-    width: 30%;
+    min-width: 20%;
     text-align: center;
     justify-content: center;
     position: relative;
+    background-color: rgb(154, 154, 223);
+}
+.btn{
+    background: none;
+    color: black;
+    font-size: 0.7rem;
+    font-weight: 800;
+    background-color: rgb(228, 165, 70);
+    padding: 12px 12px;
+    box-shadow: 2px; 
 }
